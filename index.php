@@ -20,7 +20,7 @@
 
 <header>
     <figure>
-        <a href="" target="_blank"><img src="Front-files/imgs/gym_cover_photo.jpg" width="100%" alt="gym cover photo" id="icon" /></a>
+        <a href="" target="_blank"><img src="images\pic1.jpeg" width="100%" alt="gym cover photo" id="icon" /></a>
     </figure>
 </header>
 
@@ -30,8 +30,10 @@
             <a href="index.php?page=home"><i class="fa fa-home"></i>  Home</a>
             <a href="index.php?page=about-us"><i class="fa fa-info"></i>  About Us</a>
             <a href="index.php?page=contact-us"><i class="fa fa-phone"></i>  Contact Us</a>
+            <a href="index.php?page=gym">Gym</a>
             <a href="index.php?page=my-activities" class="float-sm-right"><i class="fa fa-tasks"></i>  My Activities</a>
             <a href="index.php?page=my-account" class="float-sm-right"><i class="fa fa-user">  My Account</a>
+            <!-- <li> <a href="home.html">Home</a></li> -->
     </div>
 
 <body>
