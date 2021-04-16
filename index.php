@@ -27,11 +27,11 @@
 <!-- <hr> -->
 
 <div class="topnav fixed-top" id="top-nav">
-            <a href="index.php?page=home"><i class="fas fa-home"></i>  Home</a>
-            <a href="index.php?page=about-us"><i class="fas fa-info"></i>  About Us</a>
-            <a href="index.php?page=contact-us"><i class="fas fa-phone"></i>  Contact Us</a>
-            <a href="index.php?page=my-activities" class="float-sm-right"><i class="fas fa-tasks"></i>  My Activities</a>
-            <a href="index.php?page=my-account" class="float-sm-right">My Account</a>
+            <a href="index.php?page=home"><i class="fa fa-home"></i>  Home</a>
+            <a href="index.php?page=about-us"><i class="fa fa-info"></i>  About Us</a>
+            <a href="index.php?page=contact-us"><i class="fa fa-phone"></i>  Contact Us</a>
+            <a href="index.php?page=my-activities" class="float-sm-right"><i class="fa fa-tasks"></i>  My Activities</a>
+            <a href="index.php?page=my-account" class="float-sm-right"><i class="fa fa-user">  My Account</a>
     </div>
 
 <body>
