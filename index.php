@@ -53,7 +53,7 @@
                 } elseif ($page == 'my-account') {
                     include 'Front-files/my-account.html';
                 } else {
-                    include 'Front-files/home.html';
+                    include 'Front-files\home.html';
                 }
             } else {
                 include 'Front-files/home.html';
