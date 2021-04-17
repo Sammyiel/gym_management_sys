@@ -17,13 +17,3 @@ function filterFunction() {
         }
     }
 }
-
-// document.addEventListener("DOMContentLoaded", function() {
-//     window.addEventListener('scroll', function() {
-//         if (window.scrollY > 50) {
-//             document.getElementById('top-nav').classList.add('fixed-top');
-//         } else {
-//             document.getElementById('top-nav').classList.remove('fixed-top');
-//         }
-//     });
-// });

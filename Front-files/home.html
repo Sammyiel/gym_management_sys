@@ -2,20 +2,10 @@
 <html lang="en">
 
 <head>
-    <!-- <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <link rel="stylesheet" href="index.css">
     <title>Welcome</title>
 </head>
 
 <body>
-    <!-- <nav>
-        <ul>
-            <li> <a href="home.html">Home</a></li>
-            <li><a href="gym.html">Gym</a></li>
-        </ul>
-    </nav> -->
 
     <div class="wlc">
         <img src="images\wlc.jpg" alt="welcome">
@@ -23,13 +13,13 @@
             We have over 67 gyms for you to choose. <a href="Front-files\gym.html">View them</a> </span>
     </div>
 
-    <div class="slideshow-container">
+    <div>
 
-        <div class="mySlides fade">
+        <!-- <div class="myides fade">
             <img src="images\pic1.jpeg" style="width:100%; border-radius: 25px; border:2px solid #fff;">
             <div class="text">Best Gym in Kigali <br><a href="Front-files\gym.html">View in gym</a></div>
-        </div>
-
+        </div> -->
+        <!-- 
         <div class="mySlides fade">
             <img src="images\pic2.jpg" style="width:100%; border-radius: 25px; border:2px solid #fff;">
             <div class="text">Actually the best in the area <br><a href="Front-files\gym.html">View in gym</a></div>
@@ -38,21 +28,50 @@
         <div class="mySlides fade">
             <img src="images\pic3.jpg" style="width:100%; border-radius: 25px; border:2px solid #fff;">
             <div class="text">Some say this is the best though <br><a href="Front-files\gym.html">View in gym</a></div>
-        </div>
+        </div> -->
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 
     </div>
     <br>
 
     <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="ot" onclick="currentSlide(1)"></span>
+        <span class="ot" onclick="currentSlide(2)"></span>
+        <span class="ot" onclick="currentSlide(3)"></span>
     </div>
 
-    <script src="index.js"></script>
+    <footer id="footer-home">
+        <div class="row" id="address-socials" style="color:black; ">
+            <div class="col" id="address-div">
+                <div style="color:black; ">
+                    <span class="fa fa-map-marker">  Address</span>
+                </div>
+                <address>
+                    <div style="color:black; ">
+                        African Leadership University <br>
+                        Kigali Innovation City | Free Economic Zone <br>
+                        Kinyaga, Bumbogo, Gasabo, next to Azam <br>
+                        Kigali | Rwanda <br>
+                    </div>
+                </address>
+            </div>
+            <div class="col" id="socials">
+                <a href="" target="_blank" class="col-sm-12 col-md-6"><i class="fa fa-linkedin"></i>  LinkedIn</a> <br>
+                <a href="" target="_blank" class="col-sm-12 col-md-6"><i class="fa fa-twitter"></i>  Twitter</a> <br>
+                <a href="" target="_blank" class="col-sm-12 col-md-6"><i class="fa fa-instagram"></i>  Instagram</a> <br>
+                <a href="" target="_blank" class="col-sm-12 col-md-6"><i class="fa fa-facebook"></i>  Facebook</a> <br>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <p style="color:black; font-size:55;">&copy Bits N' Bites</p>
+        </div>
+    </footer>
+
+    <!-- <script src="Front-files\assets\themesJS\user-defined-js.js"></script> -->
+    <!-- <script src="index.js"></script> -->
 </body>
 
 </html>

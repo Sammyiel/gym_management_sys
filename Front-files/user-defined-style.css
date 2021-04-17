@@ -40,6 +40,7 @@ nav a {
     padding: 16px 18px;
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .topnav a:hover {
@@ -207,7 +208,8 @@ thead {
 footer {
     padding-left: 15%;
     padding-bottom: 4%;
-    background-color: #00a585;
+    background-color: #e9e9e9;
+    /* background-color: #00a585; */
 }
 
 #address-socials {
@@ -215,13 +217,16 @@ footer {
     padding-bottom: 3%;
 }
 
-#address-div {
-    color: #002E6D;
+#address-div,
+#socials a {
+    /* color: white; */
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#socials a {
-    color: #002e6d;
-}
+
+/* #socials a {
+    color: white;
+} */
 
 #socials a:hover {
     text-decoration: none;
@@ -304,4 +309,283 @@ footer {
         box-shadow: 30px 0 0 #00a585;
         margin-top: 0;
     }
+}
+
+body {
+    background-color: #12232E;
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #12232E;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/* nav {
+    background-color: #007CC7;
+    width: 24%;
+    height: auto;
+    margin-left: 40%;
+} */
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav>ul>li {
+    display: inline;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+
+/* nav>ul>li>a {
+    text-decoration: none;
+    color: unset;
+} */
+
+.wlc {
+    padding-top: 60px;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.wlc>img {
+    width: 100%;
+    opacity: 0.3;
+    border-radius: 25px;
+    border: 2px solid #fff;
+}
+
+.wlc>span {
+    position: absolute;
+    top: 17%;
+    left: 16px;
+    font-size: 30px;
+    width: 50%;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    width: 80%;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: black;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+.onegym>img {
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.onegym>.details {
+    float: left;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.onegym>.details>h1>a {
+    color: white;
+    text-decoration: underline;
+    /* width: 400px; */
+}
+
+.onegym>.details>h1> {
+    width: 400px;
+}
+
+.allgym {
+    /* width: 90%; */
+    margin-top: 100px;
+    /* margin-left: 50px; */
+}
+
+.allgym>.obegym {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.allgym>.obegym>img {
+    height: 200px;
+    width: 350px;
+}
+
+.allgym>.obegym>.det {
+    padding-left: 120px;
+}
+
+.allgym>.obegym>.det>h3>a {
+    color: white;
+    text-decoration: underline;
+}
+
+#footer-gym {
+    position: absolute;
+    margin-top: 140%;
+    width: 100%;
+    margin-right: 10%;
+}
+
+#footer-home {
+    margin-top: 5%;
+}
+
+.onegym {
+    margin-left: 90%;
+}
+
+.onegym>.img>img {
+    height: 400px;
+    width: 500px;
+}
+
+.booking {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.booking>form>label {
+    padding-top: 40px;
+}
+
+.booking>form>input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 70px;
 }
